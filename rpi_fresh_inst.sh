@@ -23,8 +23,8 @@ python3-picamera python3-pygame python-pygame python-tk python3-tk \
 debian-reference-en dillo x2x scratch nuscratch timidity smartsim \
 penguinspuzzle sonic-pi python3-numpy python3-pifacecommon \
 python3-pifacedigitalio python3-pifacedigital-scratch-handler \
-python-pifacecommon python-pifacedigitalio oracle-java8-jdk \
-minecraft-pi python-minecraftpi wolfram-engine
+python-pifacecommon python-pifacedigitalio minecraft-pi python-minecraftpi \
+wolfram-engine
 
 ### Clean and remove leftover software
 sudo apt-get autoclean
