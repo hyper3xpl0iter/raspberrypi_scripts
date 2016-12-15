@@ -30,14 +30,3 @@ minecraft-pi python-minecraftpi wolfram-engine
 sudo apt-get autoclean
 sudo apt-get autoremove
 
-### INSTALL FIREFOX
-cd /home/pi
-mkdir tmp
-cd tmp
-wget https://launchpad.net/~ubuntu-mozilla-security/+archive/ubuntu/ppa/+build/11198626/+files/firefox_50.0+build2-0ubuntu0.14.04.2_armhf.deb
-wget https://launchpad.net/~ubuntu-mozilla-security/+archive/ubuntu/ppa/+build/11198626/+files/firefox-globalmenu_50.0+build2-0ubuntu0.14.04.2_armhf.deb
-wget https://launchpad.net/~ubuntu-mozilla-security/+archive/ubuntu/ppa/+build/11198626/+files/firefox-dbg_50.0+build2-0ubuntu0.14.04.2_armhf.deb
-
-sudo dpkg -i firefox_*.deb
-sudo dpkg -i firefox-dbg*.deb
-sudo dpkg -i firefox-globalmenu*.deb
